@@ -7,7 +7,7 @@ This project uses the average sale price for residential properties in individua
 For this project, my hypothetical client was a start-up, OpenDoor, whose profits are based on flipping and selling residential properties for which they make instant cash offers. They are currently operating in 27 markets across the United States and are looking to capitalize on the current spike in demand for housing. They would like to know the top 5 most promising zip codes to invest in in 2021.
 
 I integrated population data into my dataset and split the data into three groups: urban, mid-size, and sparsely populated/small. 
-## Data Unverstanding
+## Data Understanding
 The data used for this analysis comes from Zillow and was provided by [Flatiron School](https://github.com/learn-co-curriculum/dsc-phase-4-project/blob/main/time-series/zillow_data.csv). I also used population data from the [2010 U.S. Census](https://catalog.data.gov/dataset/2010-census-populations-by-zip-code). 
 
 The data includes average home sale prices by month for 14,723 zipcodes from April 1996 to April 2018, though I predicted on the timeframe of June 2009 to April 2018. 
