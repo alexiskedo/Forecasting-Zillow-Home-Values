@@ -1,5 +1,7 @@
 # Zillow Time Series Forecasting Project
+
 By: Alexis Kedo
+
 This project uses the average sale price for residential properties in individual U.S. zipcodes to forecast the 3-year return on investment (ROI) for a select group of zipcodes in three population density categories: urban/densely populated, mid-size, and rural/sparsely populated.  
 ## Business Understanding 
 For this project, my hypothetical client was a start-up, OpenDoor, whose profits are based on flipping and selling residential properties for which they make instant cash offers. They are currently operating in 27 markets across the United States and are looking to capitalize on the current spike in demand for housing. They would like to know the top 5 most promising zip codes to invest in in 2021.
