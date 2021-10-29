@@ -14,7 +14,7 @@ The data includes average home sale prices by month for 14,723 zipcodes from Apr
 ## Methods 
 I isolated, according to descriptive statistics, the top 10 zipcodes for each population density category, and then chose a representative zipcode on which to optimize a SARIMA model. I improved my model through a combination of auto-ARIMA gridsearches and manully selecting hyperparameters, based on my knowledge of the seasonality present in the dataset. Then, I ran all 30 zipcodes through the final model to find the zipcodes with the largest 3-year predicted return on investment.
 ## Results 
-On the whole, mid-size and small-size zipcodes are project to have less risky investment potential than urban, densely-populated zipcodes. In fact, many urban zipcodes are projected to lose values in the next three years: 
+On the whole, mid-size and small-size zipcodes are projected to have less risky investment potential than urban, densely-populated zipcodes. In fact, many urban zipcodes are projected to lose values in the next three years: 
 ![matrix](https://github.com/alexiskedo/zilloracle/blob/main/images/urban_results.png)
 One of the zipcodes, in Bellevue, Washington (98105) is projected to deliver somewhat immediate gratification, with a projected three-year ROI of 169%: 
 ![matrix](https://github.com/alexiskedo/zilloracle/blob/main/images/midsize_results.png)
